@@ -8,8 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Solves everything related to provisioning, authorization, managing and troubleshooting OLTs and ONTs at a professional level but at a very competitive price.
       </>
     ),
   },
@@ -18,18 +17,17 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
+        You'll love the magic crafted inside of AdminControl. Forget about setup of Tconts, GEMports, Flows or Service-ports because they are magically handled by AdminControl with a single click. Go
         ahead and move your docs into the <code>docs</code> directory.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Powered by CodeIgniter4',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        CodeIgniter consistently outperforms most of its competitors
       </>
     ),
   },
