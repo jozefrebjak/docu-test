@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'AdminControl',
-  tagline: 'AdminControl',
+  tagline: 'Manage your network without fighting the terminal',
   url: 'https://github.com',
   baseUrl: '/docu-test/',
   onBrokenLinks: 'throw',
@@ -60,25 +60,35 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            to: '/blog',
+            label: 'Blog',
+            position: 'left'},
+          {
+            type: 'localeDropdown',
             position: 'right',
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Get started',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Basics',
+                to: '/docs/category/tutorial---basics',
+              },
+              {
+                label: 'Extras',
+                to: '/docs/category/tutorial---extras',
               },
             ],
           }

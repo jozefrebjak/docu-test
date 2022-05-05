@@ -1,0 +1,27 @@
+.subscribeSection {
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  padding:50px 0 30px
+}
+
+.subscribe {
+  /* Center vertically and horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input, .input:hover {
+  border: 1px solid var(--ifm-color-primary);
+  color: var(--ifm-color-content);
+  flex: 1;
+  margin-right: 8px;
+  min-width: 0;
+  text-align: left;
+  width: 340px;
+  font-size: calc(.5rem + .5rem*var(--ifm-button-size-multiplier));
+  --ifm-button-size-multiplier: 1.2;
+}
+
+.input:focus {
+  outline-color: var(--ifm-color-primary);
+}

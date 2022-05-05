@@ -1,5 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './styles.module.css';
 
 const FeatureList = [
@@ -48,9 +49,12 @@ function Feature({Svg, title, description}) {
 }
 
 export default function HomepageFeatures() {
+  const { siteConfig } = useDocusaurusContext();
   return (
     <section className={styles.features}>
       <div className="container">
+      <h2 className={styles.heading}>AdminControl</h2>
+      <h3 className={styles.subheading}>Everything you need, in one panel</h3>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
